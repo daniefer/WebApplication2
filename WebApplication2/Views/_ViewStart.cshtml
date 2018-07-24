@@ -1,5 +1,7 @@
 ﻿@{
-    if (DateTime.Now.Minute % 2 != 0)
+    int minute = DateTime.Now.Minute;
+
+    if (minute % 2 != 0)
     {
         Layout = "_Layout";
     }
